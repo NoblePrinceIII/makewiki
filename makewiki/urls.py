@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+
 """
 CHALLENGES:
     1. Uncomment line 27 below and use it to direct any request (except `/admin` URLs)
@@ -25,7 +26,7 @@ CHALLENGES:
 urlpatterns = [
     # Admin Site
     path('admin/', admin.site.urls),
-
+   
     # Wiki App
-    # path('REPLACE_ME_WITH_ROUTE', include(REPLACE_ME_WITH_APP_URLS)),
+    path('', include('wiki.urls')),
 ]
