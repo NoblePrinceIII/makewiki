@@ -32,7 +32,7 @@ class PageDetailView(DetailView):
       1. On GET, render a template named `page.html`.
       2. Replace this docstring with a description of what thos accomplishes.
 
-    STRETCH CHALLENGES:
+    STRETCH :
       1. Import the PageForm class from forms.py.
           - This ModelForm enables editing of an existing Page object in the database.
       2. On GET, render an edit form below the page details.
