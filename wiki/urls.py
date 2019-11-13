@@ -2,8 +2,8 @@ from django.urls import path
 from .views import PageList
 from .views import PageDetailView
 
-"""
   CHALLENGES:
+"""
     1. Refactor the URL named `wiki-list-page` and point it to the root route (`/`).
       - Make sure Django doesn't give you any warnings or errors when you execute `python manage.py runserver`.
       - Test by visiting http://127.0.0.1:8000/.

@@ -43,7 +43,7 @@ class PageDetailView(DetailView):
       5. After successfully editing a Page, use Django Messages to "flash" the user a success message
            - Message Content: REPLACE_WITH_PAGE_TITLE has been successfully updated.
     """
-    # model = Page
+      # model = Page
 
     def get(self, request, slug):
         """ Returns a specific of wiki page by slug. """
